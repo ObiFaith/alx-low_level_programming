@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main(void){
-printf("Hello World");
+printf("Holberton School");
 return (0);
 }
