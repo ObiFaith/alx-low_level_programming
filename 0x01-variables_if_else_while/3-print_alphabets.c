@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	char ch[27] = "abcdefghijklmnopqrstuvwxyz";
-
+	/*char ch[27] = "abcdefghijklmnopqrstuvwxyz";
+*/
 	char ch1[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 	int a = 0;
