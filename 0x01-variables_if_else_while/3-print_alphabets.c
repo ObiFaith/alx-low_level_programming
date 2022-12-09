@@ -12,11 +12,11 @@ int main(void)
 
 	int a = 0;
 
-	while (a < 26)
+	/*while (a < 26)
 	{
 		putchar(ch[a]);
 		a++;
-	}
+	}*/
 	while (a < 26)
 	{
 		putchar(ch1[a]);
