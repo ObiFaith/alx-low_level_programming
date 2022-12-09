@@ -17,6 +17,7 @@ int main(void)
 		putchar(ch[a]);
 		a++;
 	}
+	a = 0;
 	while (a < 26)
 	{
 		putchar(ch1[a]);
