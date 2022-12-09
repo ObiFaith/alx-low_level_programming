@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main - Entry point
+ * Description: 'Print using putchar()'
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char ch[27] = "abcdefghijklmnopqrstuvwxyz";
@@ -8,7 +12,6 @@ int main(void)
 
 	while (a < 27)
 	{
-		printf("");
 		putchar(ch[a]);
 		a++;
 	}
