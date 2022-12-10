@@ -13,7 +13,7 @@ int main(void)
 
 	while (a < 26)
 	{
-		if (ch[a] != q || ch[a] != e)
+		if (ch[a] != 'q' || ch[a] != 'e')
 			putchar(ch[a]);
 		a++;
 	}
