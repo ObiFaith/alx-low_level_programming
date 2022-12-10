@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: 'Print Base 10 using putchar'
- * Result: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -14,5 +14,6 @@ int main(void)
 		putchar(a + '0');
 		a++;
 	}
+	putchar('\n');
 	return (0);
 }
