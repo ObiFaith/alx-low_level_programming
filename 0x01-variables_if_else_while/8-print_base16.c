@@ -11,7 +11,7 @@ int main(void)
 
 	while (a < 16)
 	{
-		purchar(a + '0');
+		putchar(a + '0');
 		a++;
 	}
 	putchar('\n');
