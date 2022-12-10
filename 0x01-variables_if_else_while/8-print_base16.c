@@ -14,9 +14,9 @@ int main(void)
 	while (a < 16)
 	{
 		if (a < 10)
-			putchar(a + '0');
+			putchar(ch[a] + '0');
 		else
-			putchar(a);
+			putchar(ch[a]);
 		a++;
 	}
 	putchar('\n');
