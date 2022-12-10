@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (a < 10)
 			putchar(ch[a] + '0');
-		if (a > 15)
+		if (a > 9)
 			putchar(ch[a]);
 		a++;
 	}
