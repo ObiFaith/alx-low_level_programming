@@ -12,7 +12,7 @@ int main(void)
 
 	while (a < 26)
 	{
-		putchar(ch1[0]);
+		putchar(ch1[a]);
 		a++;
 	}
 	putchar('\n');
