@@ -13,7 +13,10 @@ int main(void)
 
 	while (a < 16)
 	{
-		putchar(a + '0');
+		if (a < 10)
+			putchar(a + '0');
+		else
+			putchar(a);
 		a++;
 	}
 	putchar('\n');
