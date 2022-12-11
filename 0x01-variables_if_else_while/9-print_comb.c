@@ -5,14 +5,15 @@
  * Return: Always 0 (Success)
  */
 
-inf main(void)
+int main(void)
 {
 	int a = 0;
 
 	while (a < 10)
 	{
 		putchar(a + '0');
-		putchar(', ');
+		putchar(',');
+		putchar(' ');
 		a++;
 	return (0);
 }
