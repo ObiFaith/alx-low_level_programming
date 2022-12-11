@@ -2,10 +2,10 @@
 /**
  * main - Entry point
  * Description: 'Using stderr'
- * Result: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	fprintf(stderr,"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-	return (0);
+	puts(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	return (1);
 }
