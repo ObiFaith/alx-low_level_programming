@@ -17,7 +17,7 @@ int main(void)
 	{
 		while (b < 10)
 		{
-			if (!(a == b))
+			if (a < b)
 			{
 				putchar(a + '0');
 				putchar(b + '0');
