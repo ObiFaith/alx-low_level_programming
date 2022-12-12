@@ -32,6 +32,5 @@ int main(void)
 		b = num + 1;
 		a++;
 	}
-	putchar('\n');
 	return (0);
 }
