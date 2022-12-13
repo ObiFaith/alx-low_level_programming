@@ -19,9 +19,9 @@ int main(void)
 		{
 			if (a < b)
 			{
-				putchar(a);
-				putchar(b);
-				if (!(a == 8 && b == 9))
+				putchar(a + '0');
+				putchar(b + '0');
+				if (!(a == 7 && b == 9))
 				{
 					putchar(',');
 				}
