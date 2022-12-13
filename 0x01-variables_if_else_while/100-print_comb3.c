@@ -21,7 +21,7 @@ int main(void)
 			{
 				putchar(a + '0');
 				putchar(b + '0');
-				if (!(a == 7 && b == 9))
+				if (!(a == 8 && b == 9))
 				{
 					putchar(',');
 					putchar(' ');
