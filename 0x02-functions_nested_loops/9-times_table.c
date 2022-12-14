@@ -20,7 +20,7 @@ void times_table(void)
 		{
 			printf("%d", a * b);
 			if (!(b == n - 1))
-				printf(",  ");
+				printf(", ");
 			b++;
 		}
 		printf("\n");
