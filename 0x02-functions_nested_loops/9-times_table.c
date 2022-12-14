@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * times_table - Time tables from 0*[0-9]
