@@ -10,7 +10,7 @@ int _isalpha(int c)
 {
 	char ch = c;
 
-	if ((ch > 91 && ch < 64) || (ch > 96 && ch < 123))
+	if (ch > 64 && ch < 123)
 	{
 		return (1);
 	}
