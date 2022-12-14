@@ -12,6 +12,5 @@ int _abs(int num)
 		_putchar(num + '0');
 	else
 		_putchar(-num + '0');
-	_putchar('\n');
 	return (0);
 }
