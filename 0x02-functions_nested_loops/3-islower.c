@@ -1,7 +1,9 @@
 #include "main.h"
-/*
- * _islower - Return 1 for lowercase and 0 for otherwise
- * @c - ASCII Number
+/**
+ * _islower - Function that checks for lowercse
+ * @c: ASCII Number
+ *
+ * Return: 1 if lowercase and 0 otherwise
  */
 
 int _islower(int c)
