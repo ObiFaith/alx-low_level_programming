@@ -8,10 +8,8 @@
 
 int _abs(int);
 
-int _abs(int)
+int _abs(int num)
 {
-	int num;
-
 	if (num >= 0)
 		_putchar(num + '0');
 	else
