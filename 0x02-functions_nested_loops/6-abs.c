@@ -1,12 +1,10 @@
 #include "main.h"
 /**
  * _abs - To get the absolute value of a number
- * @int: Int parameter
+ * @num: Int parameter
  *
  * Return: Always 0 (Success)
  */
-
-int _abs(int);
 
 int _abs(int num)
 {
