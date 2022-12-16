@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_square - Function to print squares
- * @size: Int parameter value
+ * print_square - Function thst print squares
+ * @size: Parameter
  *
  * Return: Always 0 (Success)
  */
@@ -10,14 +10,15 @@ void print_square(int size)
 {
 	if (size > 0)
 	{
-		for (int a = 0; a < size; a++)
+		for (int i = 0; i < size; i++)
 		{
-			for (int b = 0; b < size; b++)
+			for (int j = 0; j < size; j++)
 			{
 				_putchar('#');
 			}
 			_putchar('\n');
 		}
 	}
-	_putchar('\n');
+	else
+		_putchar('\n');
 }
