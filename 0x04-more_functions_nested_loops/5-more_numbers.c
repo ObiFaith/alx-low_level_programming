@@ -11,7 +11,7 @@ void most_numbers(void)
 
 	while (i < 10)
 	{
-		while (j < 14)
+		while (j < 15)
 		{
 			_putchar(j + '0');
 			j++;
