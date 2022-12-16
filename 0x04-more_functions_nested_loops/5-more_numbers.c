@@ -13,7 +13,10 @@ void most_numbers(void)
 	{
 		while (j < 15)
 		{
-			_putchar(j + '0');
+			if (j > 9)
+				_putchar(j / 10 + '0');
+			else
+				_putchar(j + '0');
 			j++;
 		}
 		j = 0;
