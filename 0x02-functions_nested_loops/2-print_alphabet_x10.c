@@ -5,19 +5,18 @@
 
 void print_alphabet_x10(void)
 {
-	char ch[] = "abcdefghijklmnopqrstuvwxyz";
 	int a = 0;
-	int b = 0;
 
-	while (b < 10)
+	while (a < 10)
 	{
-		while (a < 26)
+		char ch = 'a';
+
+		while (ch <= 'z')
 		{
-			_putchar(ch[a]);
-			a++;
+			_putchar(ch);
+			ch++;
 		}
-		a = 0;
-		b++;
+		a++;
 		_putchar('\n');
 	}
 }
