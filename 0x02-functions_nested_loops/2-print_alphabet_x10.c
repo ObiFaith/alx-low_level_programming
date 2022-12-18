@@ -5,9 +5,8 @@
 
 void print_alphabet_x10(void)
 {
-	char alphabets[27] = "abcdefghijklmnopqrstuvwxyz";
+	char ch[] = "abcdefghijklmnopqrstuvwxyz";
 	int a = 0;
-
 	int b = 0;
 
 	while (b < 10)
@@ -17,8 +16,8 @@ void print_alphabet_x10(void)
 			_putchar(alphabets[a]);
 			a++;
 		}
-		_putchar('\n');
 		a = 0;
 		b++;
+		_putchar('\n');
 	}
 }
