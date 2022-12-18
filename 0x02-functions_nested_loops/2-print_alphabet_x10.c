@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 	{
 		while (a < 26)
 		{
-			_putchar(alphabets[a]);
+			_putchar(ch[a]);
 			a++;
 		}
 		a = 0;
