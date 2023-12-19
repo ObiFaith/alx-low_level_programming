@@ -17,4 +17,6 @@ void times_table(void)
 				printf("%3d,", i * j);
 			else
 				printf("%d", i * j);
+		}
+	}
 }
