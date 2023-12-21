@@ -1,13 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <unistd.h>
 #include <stdio.h>
 
-char _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+char _putchar(char c);
 int _isupper(int c);
 int mul(int a, int b);
 int _isdigit(int c);
