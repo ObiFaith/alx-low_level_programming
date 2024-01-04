@@ -4,11 +4,12 @@
  * _strncat - a function that concatenates two strings.
  * @dest: destination memory location
  * @src: source memory location
+ * @n: number of letter to copy
  *
  * Return: a pointer to the resulting string dest
  */
 
-char *_strncat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int j;

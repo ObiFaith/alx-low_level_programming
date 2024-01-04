@@ -16,7 +16,11 @@ char *cap_string(char *s)
 	for (i = 0; s[i]; i++)
 		for (j = 0; j < strlen(seperator); j++)
 			if (s[i] == seperator[j])
+			{
 				if (s[i + 1] > 96 && s[i + 1] < 123)
 					s[i + 1] -= 32;
+				if (s[i] == '\t')
+					s[i] = ' ';
+			}
 	return (s);
 }
