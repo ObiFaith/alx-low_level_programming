@@ -4,6 +4,7 @@
  * _strncpy - a function that copies the string pointed to by src to dest
  * @dest: destination array
  * @src: source array
+ * @n: number of elements to copy
  *
  * Return: the pointer to dest if successful
  */
