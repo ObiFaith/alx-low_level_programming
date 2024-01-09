@@ -6,7 +6,7 @@
  * @b: char to fill memory with
  * @n: size of menory to fill b with
  *
- * Returns: a pointer to the memory area s
+ * Return: a pointer to the memory area s
  */
 
 char *_memset(char *s, char b, unsigned int n)

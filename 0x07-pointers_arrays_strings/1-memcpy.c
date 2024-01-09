@@ -6,10 +6,10 @@
  * @dest: char to fill memory with
  * @n: size of menory to fill b with
  *
- * Returns: a pointer to dest
+ * Return: a pointer to dest
  */
 
-char *_memset(char *dest, char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 
