@@ -4,6 +4,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * struct dog - Define a new type struct dog with the following elements: name, age, and owner
+ * @name: name of dog struct
+ * @age: age of dog struct
+ * @owner: owner of dog struct
+ *
+ * Description: Structure name is dog and structure variables can be created with its members
+ */
+
 struct dog
 {
 	char *name;
