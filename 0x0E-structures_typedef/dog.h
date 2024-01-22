@@ -6,11 +6,10 @@
 
 /**
  * struct dog - Define a new type struct dog with elements: name, age and owner
+ *
  * @name: name of dog struct
  * @age: age of dog struct
  * @owner: owner of dog struct
- *
- * Description: Struct name is dog &  struct var are created with its members
  */
 
 typedef struct dog
