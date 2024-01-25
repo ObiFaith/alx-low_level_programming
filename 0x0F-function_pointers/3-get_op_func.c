@@ -1,4 +1,4 @@
-#include "calc.h"
+#include "3-calc.h"
 
 /**
  * get_op_func - select function to perform the operation asked by the user
@@ -9,7 +9,7 @@
 
 int (*get_op_func(char *s))(int, int)
 {
-	int i;
+	long unsigned int i;
 	op_t ops[] = {
 		{"+", op_add},
 		{"-", op_sub},
@@ -23,7 +23,8 @@ int (*get_op_func(char *s))(int, int)
 	while (i < (sizeof(ops) / sizeof(ops[0])))
 	{
 		if (s == (&ops[i])->op)
-			return ((&ops[i])->f);
+			break;
 		i++;
 	}
+	return ((&ops[i])->f);
 }
