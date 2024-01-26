@@ -9,6 +9,7 @@ void print_all(const char * const format, ...)
 {
 	int i;
 	int j;
+	char specifier[5] = {'c', 'i', 'f', 's', '\0'};
 	va_list ap;
 
 	va_start(ap, format);
@@ -20,7 +21,7 @@ void print_all(const char * const format, ...)
 		else if (format[i] == 'i')
 			printf("%d", va_arg(ap, int));
 		else if (format[i] == 'f')
-			printf("%lf", va_arg(ap, double));
+			printf("%f", va_arg(ap, double));
 		else if (format[i] == 's')
 		{
 			const char *str = va_arg(ap, const char *);
@@ -30,10 +31,6 @@ void print_all(const char * const format, ...)
 			else
 				printf("(nil)");
 		}
-		else
-			printf("");
-
-		char specifier[4] = {'c', 'i', 'f', 's'};
 
 		j = 0;
 		while (specifier[j])
