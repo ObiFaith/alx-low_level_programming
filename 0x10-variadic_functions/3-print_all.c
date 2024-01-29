@@ -11,7 +11,7 @@ void print_all(const char * const format, ...)
 	int i;
 	int j;
 	const char *str;
-	char specifier[5] = {'c', 'i', 'f', 's', '\0'};
+	char *specifier = "cifs";
 	va_list ap;
 
 	va_start(ap, format);
