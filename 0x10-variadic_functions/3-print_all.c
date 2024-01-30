@@ -8,8 +8,7 @@
 
 void print_all(const char * const format, ...)
 {
-	int i;
-	int j;
+	int i, j;
 	const char *str;
 	char *specifier = "cifs";
 	va_list ap;
